@@ -1,0 +1,185 @@
+
+/* start Main*/
+
+html,body{
+	background-color: #f0f5f9;color: #000;
+	height: auto;width: 100%;font-family: changa;
+    
+}
+/* @font-face{
+	font-family: changa;
+	src: url(changa/Changa-Regular.ttf);
+} */
+
+@font-face{
+	font-family: chang;
+	src: url(changa/Chang.ttf);
+}
+.panel{border-radius: 0px;margin-top: 20px;}
+
+.panel .panel-heading{ color: #000;  background: #fff;	font-size: 20px;	font-weight: bold;	padding: 20px;	}
+
+.panel-body #margin-form{	margin-left: 14%;}
+
+
+.panel-body form input ,.panel-body form select{padding:16px;	padding-bottom: 25px; 
+	border-radius: 10px;	direction: rtl;box-shadow: 0px 6px 6px 0px #eee; }
+
+.panel-body form textarea{	border-radius: 10px; }
+
+.detButton{ font-weight: bold;	font-size: 17px;	width: 100px;	margin-left: 20px; }
+
+#button{width: 150px;color: #fff;font-size: 17px;
+		padding: 5px 13px;background-color: #008577;
+		margin-top: 20px;border-radius: 5px;font-weight: bold;}
+
+
+	.tabledesign
+	{
+		margin-top: 10pt;
+		font-weight: bold;
+		background-color: #fff;
+		box-shadow: 0px 1px 5px 0px #000;
+	}
+   .tabledesign thead{
+	background-color: #f0f5f9;
+     color: #000;
+
+}
+
+
+.scrollable{
+	color: black;
+	height: 600px;
+	overflow: scroll;
+}
+
+.scroll{ height: 700px; overflow: scroll;}
+
+.mr{	margin-right: 6px; }
+
+.m_left{margin-left: 6px ;}
+
+/* End Main*/
+
+
+
+/* start index design   0E1436*/
+#side-menu{background-color: #008577; 	padding: 0px;margin-right: 10px;
+	box-shadow: 0px 3px 6px 0px #000; margin-bottom: 150px;}
+
+
+
+#side-menu h1{font-family: chang; color: #fff;border-bottom: 2px solid #fff;font-weight: bold;
+	text-align: center;font-size: 26px;margin-top: 30px;padding-bottom: 10px;}
+
+.link img{ margin-left: 10px;}
+
+#side-menu ul{list-style: none;margin-top: 0pt;padding: 0px;}
+
+#side-menu ul li{ font-size: 15px;border-bottom: 1px solid #fff; }
+
+#side-menu  a{padding: 15px 25px;text-decoration: none;
+	color: #fff;	display: block;}
+
+
+#side-menu a:hover{color: #000;background-color:#f0f5f9;	}
+
+#side-menu .active a{color: #008577;background-color: #eee;}
+
+#side-menu .collapseable li{padding-top: 2px;padding-right: 10px;}
+
+#side-menu .collapseable a{ display: block;padding: 5px 15px;font-size: 15px;
+	margin-bottom: 16px;border-radius: 0px;}
+
+
+.display-table{display: table;padding: 0px;height: 100%;width: 100%;}
+
+.display-table-row{display: table-row;height: 100%;}
+
+.display-table-cell{display: table-cell;float: none;height: 100%;text-align: right;}
+
+
+.valign-top{vertical-align: top;margin-top: 10px;}
+
+/* start header design*/
+
+
+.navbar-default .navbar-toggle{border-color: #fff;background-color: #fff;}
+
+.navbar-default .navbar-toggle:hover{background-color: #fff;}
+
+.navbar-default .navbar-toggle:focus{
+		background-color: #008577;
+}
+.navbar-default .icon-bar{border: 2px solid #008577;}
+
+#nav-header{background-color:#008577;
+	color:#fff;
+	box-shadow: 0px 1px 4px 0px #000;
+	margin-bottom: 10px;}
+#nav-header .fa-bell ,.fa-envelope{
+	color:#fff;font-size:18px;border: 1px solid #fff;
+	padding:6px;border-radius: 7px;margin-top:20px;
+	margin-right: 10px;cursor: pointer;
+}
+
+
+
+.user-auth-desgin{color: #fff;padding: 7px;}
+
+
+.design-menu ul{margin: 0px;padding: 0px;list-style: none;}
+
+
+
+
+.design-menu ul li{float: right;margin-right: 15px;padding: 25px 0px;
+	margin-left: 15px;font-size: 16px;}
+
+.design-menu ul .glyphicon{font-size: 25px;}
+
+.design-menu ul .label{position: absolute;margin-top: -10px;margin-left: -3px;}
+
+#nav-header ul a{text-decoration: none;color: #fff;}
+
+
+
+.design-menu ul .image img{width: 50px;height: 50px;margin-top: -9px;}
+
+
+
+/* start insertStudent design*/
+
+.panel-body form textarea{	
+	    border-radius: 0px;
+		border-left: 11px solid #eee;direction: rtl;
+}
+
+
+.button-style{	border-radius:0px;font-size: 18px;}
+
+.panel .background{color: #0E1436;background: #eee;
+	font-size: 18px;font-weight: bold;}
+
+ .border{	font-weight: bold;margin: 7px;
+	font-size: 17px;border-top:2px solid #0E1436;
+	border-right:2px solid #0E1436;border-top-right-radius: 10px;
+	 font-size: 16px; color: #0E1436; padding:0px;
+}
+
+#dropdown_design ul li{font-size: 15px;}
+
+.add_user_plus{
+	background: #008577;
+	padding: 10px;color:#fff;
+}
+
+textarea{
+	border-radius: 10px;
+}
+
+.reset-select {height: 42px !important;padding: 8px 12px !important;}
+
+
+.reset-select2 {height: 5px !important;	padding: 5px 5px !important;}

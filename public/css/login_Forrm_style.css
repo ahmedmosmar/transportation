@@ -1,0 +1,91 @@
+@font-face{
+	font-family: changa;
+	src: url(changa/Changa-Regular.ttf);
+}
+
+html{
+  background-color: #008577;
+  
+}
+.row::after{
+  clear: none;
+  background-color: #008577;
+}
+.login-form-row{
+  margin: 20px;
+  margin-top: 50pt;
+  background-color: #008577;
+}
+
+.gravity-image{
+  margin-top: 15pt;
+  margin-bottom:20pt ;
+  border: 2px solid #008577;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+ .login-form-lable-login{
+   padding: 10px;
+   margin-left: 100pt;
+   margin-right: 100pt;
+   border-left: 4px solid #008577;
+   border-right: 4px solid #008577;
+   border-radius: 6px;
+  text-align: center;
+  margin-top:15pt ;
+  margin-bottom: 20pt;
+  color: #008577;
+}
+.loginForm{
+  font-family: changa;
+  font-weight: bold;
+  height: 400pt;
+  padding: 20pt;
+  background-color: #fff;
+   box-shadow: 0px 2px 5px 0px  #000;
+}
+/* .loginForm form input[type="text"] {
+  background-position: right;
+  background-position-x: right;
+  background-position-y: center;
+  
+	background: url("../images/mail.png") no-repeat 13px 11px;
+	background-size: 25px;
+} */
+
+.loginForm form .input-container{
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icon{
+  padding: 14px;
+  background-color: #008577;
+  color: aliceblue;
+  min-width: 50px;
+  border-radius: 0px 5px 5px 0px !important;
+  text-align: center;
+  margin-top: auto;
+
+}
+.loginForm form input[type='text'], input[type='password']{
+  widows: 100%;
+  outline: none;
+  padding: 15pt;
+  background-color: #fff;
+  text-align: right;
+  margin-top: 10px;
+  border-radius: 5px 0px 0px 5px !important;
+  box-sizing: border-box;
+}
+.loginForm form input[type='submit'] {
+  padding-top: 8pt;
+  padding-bottom: 20pt;
+  color: #fff;
+  text-align: center;
+  background-color: #008577;
+  margin-top: 20pt;
+  box-shadow: 0px 1px 3px 0px  #000;
+}
